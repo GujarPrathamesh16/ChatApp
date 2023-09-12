@@ -5,16 +5,19 @@ import MessageForm from '../components/MessageForm'
 
 function Chat() {
   return (
-    <Container>
-      <Row>
-        <Col md={4}>
-          <Sidebar/>
-        </Col>
-        <Col md = {8}>
-          <MessageForm/>
-        </Col>
-      </Row>
-    </Container>
+    <>
+    Chat 
+      <Container>
+        <Row>
+          <Col md={4}>
+            <Sidebar/>
+          </Col>
+          <Col md={8}>
+            <MessageForm/>
+          </Col>
+        </Row>
+      </Container>
+    </>
   )
 }
 

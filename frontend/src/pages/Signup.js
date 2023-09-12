@@ -78,7 +78,11 @@ function Signup() {
               <label htmlFor="image-upload" className='image-upload-label'>
                 <i className='fas fa-plus-circle add-picture-icon'></i>
               </label>
-              <input type="file" id="image-upload" hidden accept='image/png, image/jpeg' onChange={validateImg}/>
+              {/* <div>
+                <input type="file" id="image-upload" hidden accept='image/png, image/jpeg' onChange={validateImg}/>
+              </div> */}
+              
+               <input type="file" id="image-upload" hidden accept='image/png, image/jpeg' onChange={validateImg}/>
             </div>
 
             <Form.Group className="mb-3" controlId="formBasicName">
